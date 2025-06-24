@@ -844,7 +844,7 @@ font-family:'Lato';
   top: 0;
   left: 0;
   align-items: center;
-  animation: slideImages2 25s infinite;
+  animation: slideImages2 35s infinite;
 }
 
 .carousel-track2 img {
@@ -925,16 +925,22 @@ font-family:'Lato';
   0%, 15% {
     transform: translateX(0%);
   }
-  20%, 35% {
+  20%, 30% {
     transform: translateX(-100%);
   }
-  40%, 55% {
+  35%, 45% {
     transform: translateX(-200%);
   }
-  60%, 75% {
+  50%, 65% {
     transform: translateX(-300%);
   }
-  80%, 100% {
+  70%, 80% {
+  transform: translateX(-400%);
+  }
+  85%, 90% {
+  transform: translateX(-500%);
+  }
+  95%, 100% {
   transform: translateX(0%);
   }
 }
