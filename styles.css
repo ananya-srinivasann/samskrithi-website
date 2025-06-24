@@ -1328,9 +1328,9 @@ font-family: 'Lato';
 
 .img-item img {
   width: 100%;
-  max-width: 300px;
-  height: auto;
-  max-height: 500px;
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
   border-radius: 10px;
   border: 2px white;
 }
