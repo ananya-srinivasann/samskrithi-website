@@ -413,14 +413,13 @@ font-family: 'Lato';
   filter: sepia(0.8) saturate(10) hue-rotate(-50deg) brightness(0.8);
 }
 
-/* --- Existing CSS for .mission-img, .mission, .imgg etc. should remain --- */
-.mission-image-container { /* This specific class is no longer used in HTML */
+.mission-image-container { 
   width: 100vw;
   align-items: center;
   justify-content: center;
 }
 
-.mission-image { /* This specific class is no longer used for the containing div */
+.mission-image { 
   display: flex;
   gap: 50px;
   background-color: peachpuff;
@@ -461,7 +460,6 @@ font-family: 'Lato';
     box-sizing: border-box;
 }
 
-/* Styles for individual event items */
 .event-item {
     background-color: peachpuff;
     padding: 20px;
@@ -571,15 +569,14 @@ font-family: 'Lato';
   color: peachpuff;
 }
 
-/* --- New styles for the image and text block (sisters pic) --- */
 .description-and-image-section {
     display: flex; /* flexbox for horizontal layout */
     flex-direction: row; /* items line up in a row (text then image) */
     background-color: peachpuff;
-    border-radius: 10px; /* Rounded corners */
-    width: 90vw; /* Keep width consistent */
+    border-radius: 10px; 
+    width: 90vw; 
     max-width: 1200px; /* prevent it from getting too wide on large screens */
-    margin: 50px auto; /* Center the div horizontally and add vertical spacing */
+    margin: 50px auto; /* Center div horizontally and add vertical spacing */
     padding: 30px;
     align-items: center;
     justify-content: space-around;
@@ -606,11 +603,11 @@ font-family: 'Lato';
 }
 
 .sisters-image img {
-    max-width: 100%; /* Ensure image scales within its container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners for the image */
-    display: block; /* Remove extra space below image */
-    object-fit: cover; /* Ensures image fills its space nicely */
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    display: block; 
+    object-fit: cover; 
 }
 
 @media (max-width: 768px) {
@@ -861,7 +858,7 @@ font-family:'Lato';
 @media (max-width: 768px) {
 
   .image-carousel2 {
-    height: 0; /* Reset height */
+    height: 0; 
     padding-bottom: 133.33%;
   }
 
@@ -1097,8 +1094,8 @@ font-family: 'Lato';
 @media (max-width: 768px) {
   .text-side,
   .image-side {
-    min-width: auto; /* Allow it to shrink as much as needed */
-    width: 100%; /* Make them take full width when stacked */
+    min-width: auto; 
+    width: 100%; 
     flex: none;
   }
 }
@@ -1107,7 +1104,6 @@ font-family: 'Lato';
 .image-side {
   flex: 1;
   min-width: clamp(280px, 90vw, 300px);
-  /* ... other styles */
 }
 
 .text-side {
@@ -1557,7 +1553,7 @@ font-family: 'Lato';
 
 
 
-/* Responsive Columns */
+/* responsive columns */
 @media (max-width: 1400px) {
   .masonry-gallery {
     column-count: 4;
@@ -1790,11 +1786,4 @@ font-family: 'Lato';
 
 
 }
-
-
-
-
-
-
-
 
