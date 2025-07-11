@@ -269,9 +269,9 @@ font-family: 'Lato';
 }
 
 .row3 img {
-  max-width: clamp(20px, 4vw, 80px);
-  margin-top: clamp(10px, 4vw, 20px);
-  margin-bottom: clamp(10px, 4vw, 30px);
+  max-width: clamp(40px, 4vw, 80px);
+  margin-top: clamp(0px, 4vw, 20px);
+  margin-bottom: clamp(20px, 4vw, 30px);
 
   height: auto;
 }
