@@ -845,7 +845,7 @@ font-family:'Lato';
   top: 0;
   left: 0;
   align-items: center;
-  animation: slideImages2 35s infinite;
+  animation: slideImages2 40s infinite;
 }
 
 .carousel-track2 img {
@@ -923,23 +923,26 @@ font-family:'Lato';
 
 
 @keyframes slideImages2{
-  0%, 15% {
+  0%, 10% {
     transform: translateX(0%);
   }
-  20%, 30% {
+  15%, 25% {
     transform: translateX(-100%);
   }
-  35%, 45% {
+  30%, 40% {
     transform: translateX(-200%);
   }
-  50%, 65% {
+  45%, 55% {
     transform: translateX(-300%);
   }
-  70%, 80% {
+  60%, 70% {
   transform: translateX(-400%);
   }
-  85%, 90% {
+  75%, 80% {
   transform: translateX(-500%);
+  }
+  85%, 90% {
+  transform: translateX(-600%);
   }
   95%, 100% {
   transform: translateX(0%);
