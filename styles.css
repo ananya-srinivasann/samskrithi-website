@@ -106,9 +106,8 @@ html, body {
 
 
 .bottom-text {
- font-size: 0.7rem;
+ font-size: 0.8rem;
  font-family: 'Lato';
-
  max-width: 25vw;
 }
 
@@ -1131,12 +1130,20 @@ font-family: 'Lato';
   color: sandybrown;
 }
 
-.guru-title {
+.guru-title h1 {
 font-family: 'Lato';
-  font-size: clamp(2.5rem, 6vw, 3.2rem);
+  font-size: clamp(2.5rem, 4vw, 3.2rem);
   text-align: center;
   font-weight: bold;
   color: peachpuff;
+}
+
+.guru-title {
+  font-family: 'Lato';
+  font-size: clamp(1rem, 3vw, 2rem);
+  font-weight: bold;
+  text-align: center; 
+  color: sandybrown;
 }
 
 .performance-title {
