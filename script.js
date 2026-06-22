@@ -55,3 +55,19 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error("Hamburger or navLinks element not found!");
     }
 });
+
+
+const video = document.getElementById('myVideo');
+const placeholder = document.getElementById('placeholder');
+
+video.addEventListener('canplaythrough', () => {
+  video.style.opacity = 1; // fades the video in 
+  placeholder.style.display = 'none'; // hides the image after video loads
+});
+
+// if the video completely breaks/fails to load
+video.addEventListener('error', () => {
+  console.log("Video failed to load. Keeping placeholder image.");
+  placeholder.style.display = 'block';
+  video.style.display = 'none';
+});

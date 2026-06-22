@@ -337,7 +337,7 @@ font-family: 'Lato';
     background-color: #9A031E;
 }
 
-.video-container video {
+.video-container video, .video-container img {
     width: 100%;
     height: 100%;
     display: block;
@@ -345,6 +345,7 @@ font-family: 'Lato';
     object-position: center;
 
 }
+
 
 @media (max-width: 767px) {
     .video-container {
